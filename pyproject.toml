@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vessel-tracing"
+version = "0.0.1"
+description = "3-D vessel tracing pipeline"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy", "scikit-image", "scipy", "matplotlib",
+    "skan", "czifile", "tifffile", "xmltodict"
+]
+
+# ✱✱ THIS is what tells setuptools to look inside src/ ✱✱
+[tool.setuptools.packages.find]
+where = ["src"]

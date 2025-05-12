@@ -1,0 +1,8 @@
+numpy
+scikit-image
+scipy
+matplotlib
+skan
+czifile
+tifffile
+xmltodict

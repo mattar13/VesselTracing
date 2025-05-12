@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: vessel-tracing
+Version: 0.0.1
+Summary: 3-D vessel tracing pipeline
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: skan
+Requires-Dist: czifile
+Requires-Dist: tifffile
+Requires-Dist: xmltodict
